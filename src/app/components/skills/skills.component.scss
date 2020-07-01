@@ -1,0 +1,34 @@
+.skills{
+    border-top: 2px solid #d3d3d3;
+    border-bottom: 2px solid #d3d3d3;
+    margin:0px 150px 0px 150px;
+    padding: 70px 0px 100px 0px;
+}
+
+.skills-row{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+    font-family: 'Open Sans';
+    font-weight: 400;
+    color: #333;
+}
+
+.title{
+    padding-bottom: 50px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size:30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.list-col{
+    text-align: center;
+}

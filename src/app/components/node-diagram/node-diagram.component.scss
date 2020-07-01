@@ -1,0 +1,43 @@
+polygon.warning{
+    stroke: #ffcc66; 
+ }
+ 
+polygon.danger{
+    stroke: #ff4000;
+}
+polygon.selected{
+    stroke: #6678DD; 
+}
+polygon.selected-sub{
+    fill: #707070;
+    stroke: #707070;
+}
+
+circle.regular{
+   stroke: #707070;
+}
+
+.text{
+    font-size: 14px;
+}
+select{
+    background-color:rgb(182, 181, 181);
+}
+.d3-tip{
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-content: center;
+   text-align: center;
+   padding-top:20px;	
+}
+
+p.info-text{
+    font-size: 12px;
+    margin: auto;
+    line-height: 7px;
+}
+
+#top-info-text{
+    padding-top:20px;
+}
