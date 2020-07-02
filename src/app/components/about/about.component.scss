@@ -10,9 +10,10 @@ p{
 
 .title{
     font-family: 'Open Sans';
-    font-weight: 600;
+    font-weight: 700;
     font-size:30px;
     margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 .about-text{
@@ -50,6 +51,7 @@ p{
     font-weight: 600;
     cursor: pointer;
     cursor: hand;
+    text-transform: uppercase;
 }
 .button:hover{
  text-decoration: none;

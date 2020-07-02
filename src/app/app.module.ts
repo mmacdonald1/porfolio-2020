@@ -9,7 +9,6 @@ import { WorkComponent } from './components/work/work.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
-import { NodeDiagramComponent } from './components/node-diagram/node-diagram.component';
 import { DotBallComponent } from './components/dot-ball/dot-ball.component';
 
 @NgModule({
@@ -21,7 +20,6 @@ import { DotBallComponent } from './components/dot-ball/dot-ball.component';
     SkillsComponent,
     AboutComponent,
     ContactComponent,
-    NodeDiagramComponent,
     DotBallComponent
   ],
   imports: [
