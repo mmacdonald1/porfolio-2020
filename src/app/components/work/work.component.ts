@@ -54,7 +54,7 @@ export class WorkComponent implements OnInit {
 
   carousel = () =>{
     var i;
-  var x = document.getElementsByClassName("mySlides");
+  var x = document.getElementsByClassName("mySlides") as HTMLCollectionOf<HTMLElement>;
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";  
   }
@@ -65,7 +65,7 @@ export class WorkComponent implements OnInit {
   }
   carousel1 = () =>{
     var i;
-  var x = document.getElementsByClassName("mySlides1");
+  var x = document.getElementsByClassName("mySlides1") as HTMLCollectionOf<HTMLElement>;
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";  
   }
@@ -77,7 +77,7 @@ export class WorkComponent implements OnInit {
 
   carousel3 = () =>{
     var i;
-  var x = document.getElementsByClassName("mySlides3");
+  var x = document.getElementsByClassName("mySlides3") as HTMLCollectionOf<HTMLElement>;
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";  
   }

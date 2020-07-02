@@ -124,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "portfolio2020"
+    }
+  },
+  "defaultProject": "portfolio2020",
+  "cli": {
+    "analytics": "9d7c2ec2-2880-47ad-b4b4-7b701499eae3"
+  }
 }
